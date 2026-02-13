@@ -87,7 +87,6 @@ async def main(config: bt.config):
             bt.logging.error("Retrying in 120 seconds...")
             time.sleep(120)
 
-
 if __name__ == "__main__":
     config = get_config()
     asyncio.run(main(config))
